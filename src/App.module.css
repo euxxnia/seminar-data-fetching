@@ -1,7 +1,8 @@
 .wrapper {
   display: flex;
   margin: 40px;
-  border: 1px solid red;
+  border: 1px solid pink;
+  border-radius: 12px;
   padding: 20px;
 }
 
