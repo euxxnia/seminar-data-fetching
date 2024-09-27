@@ -1,16 +1,20 @@
 .wrapper {
   display: flex;
-  margin: 20px;
-  border: 1px solid red;
+  margin: 40px;
+  border: 1px solid pink;
+  border-radius: 12px;
   padding: 20px;
 }
 
 .postList {
+  flex: 1;
   margin: 20px;
 }
 
 .postContent {
+  flex: 1;
   margin: 20px;
+  margin-left: 30px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -61,3 +65,8 @@
 /* .p {
   margin-top: 1rem;
 } */
+
+.divider {
+  width: 0.125rem;
+  background-color: #e7e5e4;
+}

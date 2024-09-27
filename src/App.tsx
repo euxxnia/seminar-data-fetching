@@ -55,6 +55,7 @@ export const App = () => {
           setSelectedPostID={setSelectedPostID}
         />
       </div>
+      <div className={styles.divider}></div>
       <div className={styles.postContent}>
         <PostDetail posts={posts} selectedPostID={selectedPostID} />
       </div>
