@@ -6,10 +6,12 @@
 }
 
 .postList {
+  flex: 1;
   margin: 20px;
 }
 
 .postContent {
+  flex: 1;
   margin: 20px;
   display: flex;
   flex-direction: column;
